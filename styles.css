@@ -127,3 +127,7 @@ img{
   width:40%;
   height:60%;
 }
+
+ul{
+  list-style: none;
+}
