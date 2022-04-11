@@ -1,8 +1,9 @@
 body{
     padding: 0px;
-  	margin: 0px;
+  	margin: 2px;
   	list-style: none;
   	font-family: 'Poppins', sans-serif;
+	background-color: #d1cfcf;
 
   }
   .navbar{
@@ -36,10 +37,10 @@ body{
   	font-weight: bold;
   	border-radius: 12px;
   	padding: 12px 30px;
-  	border: 2px solid #ff0000;
   }
   .signup a:hover{
-  	background-color: red;
+  	background-color: rgb(117, 50, 50);
+	 color: #fee; 
   	transition: 0.6s;
   }
   .body{
@@ -88,8 +89,8 @@ body{
   	font-size: 35px;
   	letter-spacing: 3px;
   	border-radius: 1px;
-  	padding: 30px 30px;
   	background-color: #000;
+	opacity: 60%;
   }
   .places a{
   	text-decoration: none;
@@ -130,4 +131,12 @@ img{
 
 ul{
   list-style: none;
+}
+
+.logo{
+	color: blue;
+}
+
+.names{
+	margin-left: 0
 }
